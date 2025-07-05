@@ -1,0 +1,36 @@
+body {
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.watch {
+  background: #3949ab;
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  text-align: center;
+}
+.timer {
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+.controls button {
+  font-size: 18px;
+  padding: 10px 24px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  color: #3949ab;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.controls button:hover {
+  background: #e8eaf6;
+}
